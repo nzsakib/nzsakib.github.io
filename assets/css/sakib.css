@@ -1,5 +1,8 @@
 .main-header {
-    
     background-position-x: 50%;
-    background-position-y: 24%;
+    background-position-y: 42%;
+}
+
+.main-header::before {
+    background: linear-gradient(54deg,rgba(74,76,179,.90) 34%,hsla(0,34%,71%,.95));
 }
